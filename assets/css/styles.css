@@ -449,7 +449,7 @@ button:focus {
 	font-size: 15px;
 	line-height: 24px;
 	padding: 8px 20px;
-	cursor: pointer;
+	cursor: not-allowed;
 	background: none;
 	border: 1px solid #FFF;
 	transition: all 0.3s;
