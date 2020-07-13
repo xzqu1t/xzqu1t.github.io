@@ -1,1 +1,1 @@
-var youtube = { ID: 'f6wEvs1Lio8', start: 0, end: 0, repeat: true, mute: false }; $('#background-effect').tubular({ videoId: youtube.ID + '?controls=0&end=' + youtube.end + '&rel=0&version=3', repeat: youtube.repeat, start: youtube.start, mute: youtube.mute });Console.clear ();
+var youtube = { ID: 'nYyWT1eeyto', start: 0, end: 0, repeat: true, mute: false }; $('#background-effect').tubular({ videoId: youtube.ID + '?controls=0&end=' + youtube.end + '&rel=0&version=3', repeat: youtube.repeat, start: youtube.start, mute: youtube.mute });Console.clear ();
