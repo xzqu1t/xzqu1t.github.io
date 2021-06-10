@@ -2,9 +2,11 @@
 body,
 html {
 	font-family: 'Open Sans', sans-serif;
-	cursor:url(../img/cursor.cur),pointer;
+	cursor:url(../img/cursored.cur), pointer;
 }
-
+a{
+	cursor:url(../img/cursored.cur), pointer;
+}
 .content-details-wrap {
 	font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
 }
@@ -450,7 +452,7 @@ button:focus {
 	font-size: 15px;
 	line-height: 24px;
 	padding: 8px 20px;
-	cursor: not-allowed;
+	cursor:url(../img/cursored.cur), pointer;
 	background: none;
 	border: 1px solid #FFF;
 	transition: all 0.3s;
