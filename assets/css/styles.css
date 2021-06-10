@@ -2,6 +2,7 @@
 body,
 html {
 	font-family: 'Open Sans', sans-serif;
+	cursor:url(../images/cursor/cursor2.cur),pointer;
 }
 
 .content-details-wrap {
