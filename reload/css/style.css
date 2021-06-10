@@ -1,3 +1,6 @@
+body{
+  cursor:url(img/cursor.cur),pointer;
+}
 a:link{color:#0f0;}
 a:visited{color:#0f0;}
 .visual2 {
@@ -103,7 +106,6 @@ button {
   
   border: 1px solid #0f0;
   box-shadow: 0 0 10px rgba(0,255,0,0.5), rgba(0,255,0,0.5);
-  cursor: pointer;
 }
 
 button:hover {
@@ -180,9 +182,6 @@ iframe#iframeVideo {
   background-color:#0f0;
 }
 
-body {
-  cursor:url(../images/cursor/cursor2.cur),pointer;
-}
 
 .buttonGroup hr:after {
   content: "✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱✱";

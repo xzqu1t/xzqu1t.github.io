@@ -2,7 +2,7 @@
 body,
 html {
 	font-family: 'Open Sans', sans-serif;
-	cursor:url(../images/cursor/cursor2.cur),pointer;
+	cursor:url(../img/cursor.cur),pointer;
 }
 
 .content-details-wrap {
