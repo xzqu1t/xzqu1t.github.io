@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>TheПундомер</title>
-    <link rel="stylesheet" href="zpstyle.css">
     <link rel="stylesheet" href="bootstrap.min.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
@@ -16,11 +15,15 @@
 </head>
 <body>
     <div class="container text-center">
-    <h1 class="text-center">0</h1><h3> рублей дед заработал,</h3>
-    <h2 class="text-center">00:00:00</h2><h3>за вот стока времени на линии эвакуатора!</h3>
+    <h1 class="text-center">00:00:00</h1><h3>- за это время дед заработал уже -</h3>
+    <h2 class="text-center">0</h2><h3>в рублях кст, тоже смешно?</h3>
     <button class="btn btn-outline-success" id="strt"><i class="fa-solid fa-play"></i></button>
     <button class="btn btn-outline-danger" id="stp"><i class="fas fa-stop"></i></i></button>
     <button class="btn btn-outline-primary" id="rst"><i class="fa-solid fa-recycle"></i></button>
+    <hr>
+    <button class="btn btn-outline-primary" id="plushrs" onclick="plushrsz()">+1 Час</button>
+    <button class="btn btn-outline-primary" id="plusmin" onclick="plusminx()">+1 Минута</button>
+ 
     </div>
     <script src="https://kit.fontawesome.com/66b1d48abf.js" crossorigin="anonymous"></script>
     <script src="zpmetr.js"></script>
