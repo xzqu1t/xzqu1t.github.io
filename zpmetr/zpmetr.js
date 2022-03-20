@@ -43,10 +43,10 @@ function add2() {
     timer2();
 }
 function timer() {
-    t = setTimeout(add, 100);
+    t = setTimeout(add, 1000);
 }
 function timer2() {
-    w = setTimeout(add2, 100);
+    w = setTimeout(add2, 1000);
 }
 timer();
 timer2();
