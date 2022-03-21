@@ -49,7 +49,7 @@ function plusminx() {
 }
 
 function timer() {
-    t = setTimeout(add, 50);
+    t = setTimeout(add, 1000);
 }
 
 start.onclick = timer;
